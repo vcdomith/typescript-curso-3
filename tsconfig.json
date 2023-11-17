@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "app/dist/js",
+        "target": "ES6",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+        "experimentalDecorators": true,"sourceMap": true //Opção para debuggar com arquivo TS no browser
+    },
+    "include": ["app/src/**/*"]
+}
